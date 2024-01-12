@@ -3,7 +3,7 @@ const About = () => {
     return (
         <div>
 
-            <div className="font-sans text-[#333] max-w-6xl max-md:max-w-md mx-auto pt-10">
+            {/* <div className="font-sans text-[#333] max-w-6xl max-md:max-w-md mx-auto pt-10">
                 <div className="grid md:grid-cols-2 items-center md:gap-8 gap-6">
                     <div className="max-md:order-1 max-md:text-center z-50 relative">
                         <h2 className="lg:text-6xl md:text-5xl text-3xl font-extrabold mb-4 md:!leading-[56px]"><span className="text-blue-600">Smart</span> Business with <span className="text-blue-600">Smart</span> People</h2>
@@ -62,7 +62,7 @@ const About = () => {
                         <a href="javascript:void(0);" className="text-blue-600 font-bold inline-block text-sm mt-2 hover:underline">Learn more</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

@@ -2,13 +2,22 @@
 import img from './../../assets/skills/git.png'
 
 const Contacts = () => {
+    const handleEmailClick = () => {
+        const emailAddress = 'md.tahmid@gmail.com';
+        const subject = 'Regarding Your Website';
+        const body = 'Hello, I would like to get in touch with you regarding your website.';
+
+        const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        window.location.href = mailtoLink;
+    };
     return (
-        <div id="contacts">
-            <h2 className="text-center text-white text-3xl my-16">CONTACTS</h2>
-            <div className="grid sm:grid-cols-2 items-center gap-16 my-6 mx-auto max-w-5xl p-10 text-white border-[1px] border-white font-[sans-serif]">
+        <div id="contacts" className='bg-white text-black mt-10 py-10'>
+            <h2 className="text-center text-3xl">CONTACTS</h2>
+            <div className="grid sm:grid-cols-2 items-center gap-16 my-6 mx-auto max-w-5xl p-10 border-[1px] border-white font-[sans-serif]">
                 <div>
                     <h1 className="text-3xl font-extrabold">Let's Talk</h1>
-                    <p className="text-sm text-gray-400 mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
+                    <p className="text-sm  mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
                     <div className="mt-12">
                         <h2 className="text-lg font-extrabold">Email</h2>
                         <ul className="mt-3">
@@ -21,7 +30,7 @@ const Contacts = () => {
                                             data-original="#000000" />
                                     </svg>
                                 </div>
-                                <div className="text-[#007bff] text-sm ml-3">
+                                <div className="text-[#007bff] text-sm ml-3" onClick={handleEmailClick} style={{ cursor: 'pointer' }}>
                                     <small className="block">Mail</small>
                                     <strong>md.tahmid@gmail.com</strong>
                                 </div>

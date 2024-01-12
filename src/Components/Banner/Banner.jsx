@@ -24,11 +24,7 @@ const Banner = () => {
                     <h1 className='font-medium text-4xl mt-2 mb-6'> Front-End Developer.</h1>
 
                     <p className='mt-4 text-center mx-4 md:text-justify md:mx-0'>I'm a front-end developer specializing in React . I create sleek designs and seamless functionality . Also, I handle backend with Node Js, MongoDB, and Express.</p>
-                    {/* <section className='flex mt-2 items-center gap-1 ml-[2px]'>
-                        <a href='https://www.linkedin.com/in/tahmid-shawn/' target='_blanks' className='text-black text-2xl'> <BsLinkedin /></a>
-                        <a href='https://www.facebook.com/md.tahmid022' target='_blanks' className='text-black text-3xl'> <BiLogoFacebookSquare /> </a>
-                    </section> */}
-
+                    
                     <section className='mt-6'>
                         <div className=''>
                             <Link target='_blanks' to='https://github.com/TahmidShawn'>
