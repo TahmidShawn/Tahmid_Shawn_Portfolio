@@ -4,8 +4,9 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const navLinks = <>
         <NavLink>Home</NavLink>
-        <NavLink>Contact</NavLink>
+        <a href="#contacts">Contact</a>
         <NavLink to='/about'>About Me</NavLink>
+
     </>
     return (
         <nav className="navbar bg-[#F5F5F5] text-black z-50 max-w-5xl mx-0 px-0 fixed">

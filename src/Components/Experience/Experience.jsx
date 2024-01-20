@@ -11,7 +11,7 @@ import Marquee from "react-fast-marquee";
 const Experience = () => {
     return (
         <section className="text-black pt-10">
-            <h2 className="text-3xl pb-4 border-b-[1px] border-gray-400">EXPERIENCE</h2>
+            <h2 className="text-3xl pb-4 border-b-[1px] border-gray-400">SKILLS</h2>
 
             <Marquee className='max-w-6xl mx-auto mt-10 bg-white p-5'>
 

@@ -6,6 +6,7 @@ import { BsGithub } from "react-icons/bs";
 import { MdSimCardDownload } from "react-icons/md";
 
 
+
 const Banner = () => {
     const handleDownloadCV = () => {
         // Replace the URL with the direct link to your PDF file on Google Drive
@@ -19,6 +20,7 @@ const Banner = () => {
                 <div className=" w-3/4">
                     <img src={img} />
                 </div>
+                
                 <div className='text-center md:text-left'>   
                     <h1 className='font-medium text-4xl mt-4'> Tahmid Shawn.</h1>
                     <h1 className='font-medium text-4xl mt-2 mb-6'> Front-End Developer.</h1>
